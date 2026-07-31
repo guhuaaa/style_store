@@ -1,0 +1,408 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+
+  /* 单一基础令牌：金融研究报告式黑白编辑系统 */
+  --ui-ink: #111111;
+  --ui-paper: #faf9f5;
+  --ui-surface: #ffffff;
+  --ui-charcoal: #262626;
+  --ui-graphite: #555555;
+  --ui-muted: #716e67;
+  --ui-silver: #b8b8b8;
+  --ui-border: #d8d5cc;
+  --ui-surface-muted: #f1efe9;
+  --ui-gold: #806a2d;
+  --ui-risk-critical: #8f3030;
+  --ui-risk-high: #a85a32;
+  --ui-risk-medium: #9a7b2f;
+  --ui-risk-low: #3f7465;
+
+  /* 兼容别名：旧组件只能引用这些语义映射，颜色来源统一为 --ui-* */
+  --rl-brand: var(--ui-ink);
+  --rl-brand-light: var(--ui-charcoal);
+  --rl-gold: var(--ui-gold);
+  --rl-risk: var(--ui-risk-critical);
+  --rl-safe: var(--ui-risk-low);
+  --rl-bg: var(--ui-paper);
+  --rl-surface: var(--ui-surface);
+  --rl-surface-elevated: var(--ui-surface-muted);
+  --rl-border: var(--ui-border);
+  --rl-text-primary: var(--ui-ink);
+  --rl-text-secondary: var(--ui-graphite);
+  --rl-text-muted: var(--ui-muted);
+
+  --og-bg: var(--ui-paper);
+  --og-surface: var(--ui-surface);
+  --og-surface-elevated: var(--ui-paper);
+  --og-surface-hover: var(--ui-surface-muted);
+  --og-border: var(--ui-border);
+  --og-divider: var(--ui-border);
+  --og-text-primary: var(--ui-ink);
+  --og-text-secondary: var(--ui-graphite);
+  --og-text-muted: var(--ui-muted);
+  --og-gold: var(--ui-gold);
+  --og-primary: var(--ui-charcoal);
+  --og-primary-light: var(--ui-graphite);
+  --og-danger: var(--ui-risk-critical);
+  --og-danger-light: var(--ui-risk-high);
+  --og-safe: var(--ui-risk-low);
+  --og-safe-light: #648f82;
+  --og-warning: var(--ui-risk-medium);
+  --og-slate: #6f7478;
+  --og-warm-grey: #8b857c;
+  --og-ink: var(--ui-charcoal);
+}
+
+html.dark {
+  color-scheme: dark;
+  --ui-ink: #f4f1e9;
+  --ui-paper: #171717;
+  --ui-surface: #202020;
+  --ui-charcoal: #ece8de;
+  --ui-graphite: #c1bdb4;
+  --ui-muted: #98938a;
+  --ui-silver: #777269;
+  --ui-border: #45413b;
+  --ui-surface-muted: #2a2927;
+  --ui-gold: #b59650;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+  background-color: var(--rl-bg);
+  color: var(--rl-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Element Plus 暗色主题覆盖 */
+html.dark .el-button {
+  --el-button-bg-color: var(--rl-surface-elevated);
+  --el-button-text-color: var(--rl-text-primary);
+  --el-button-border-color: var(--rl-border);
+}
+
+html.dark .el-button--primary {
+  --el-button-bg-color: var(--rl-gold);
+  --el-button-border-color: var(--rl-gold);
+  --el-button-text-color: #171717;
+}
+
+html.dark .el-card {
+  --el-card-bg-color: var(--rl-surface);
+  --el-card-border-color: var(--rl-border);
+  border-radius: 12px;
+}
+
+html.dark .el-input__wrapper,
+html.dark .el-textarea__inner {
+  background-color: var(--rl-surface-elevated);
+  box-shadow: 0 0 0 1px var(--rl-border) inset;
+  color: var(--rl-text-primary);
+}
+
+html.dark .el-input__inner,
+html.dark .el-textarea__inner {
+  color: var(--rl-text-primary);
+}
+
+html.dark .el-table {
+  --el-table-bg-color: transparent;
+  --el-table-tr-bg-color: var(--rl-surface);
+  --el-table-header-bg-color: var(--rl-surface-elevated);
+  --el-table-border-color: var(--rl-border);
+  --el-table-text-color: var(--rl-text-primary);
+  --el-table-header-text-color: var(--rl-text-secondary);
+}
+
+html.dark .el-menu {
+  --el-menu-bg-color: var(--rl-surface);
+  --el-menu-text-color: var(--rl-text-secondary);
+  --el-menu-hover-text-color: var(--rl-text-primary);
+  --el-menu-hover-bg-color: var(--rl-surface-elevated);
+  --el-menu-active-color: var(--rl-gold);
+}
+
+html.dark .el-step__title {
+  color: var(--rl-text-secondary);
+}
+
+html.dark .el-step__title.is-process {
+  color: var(--rl-gold);
+}
+
+html.dark .el-step__head.is-process {
+  color: var(--rl-gold);
+  border-color: var(--rl-gold);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rl-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rl-text-muted);
+}
+
+/* 工具类 */
+@layer components {
+  .rl-card {
+    @apply bg-rl-surface border border-rl-border rounded-xl p-5;
+  }
+  
+  .rl-title {
+    @apply font-display font-semibold text-rl-text-primary;
+  }
+  
+  .rl-text-gradient {
+    @apply bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent;
+  }
+  
+  .rl-glow-gold {
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+  }
+  
+  .rl-glow-blue {
+    box-shadow: 0 0 20px rgba(38, 38, 38, 0.12);
+  }
+}
+
+/* 全局过渡 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Arts and Crafts theme layer */
+:root {
+  --ui-ink: #2e2418;
+  --ui-paper: #f3ecd9;
+  --ui-surface: #fff9ea;
+  --ui-charcoal: #44331f;
+  --ui-graphite: #6b5d46;
+  --ui-muted: #8a7d63;
+  --ui-silver: #c7b996;
+  --ui-border: #c9b88b;
+  --ui-surface-muted: #ebe0c4;
+  --ui-gold: #ad7f2b;
+  --ui-sap: #40583b;
+  --ui-sage: #7f9274;
+  --ui-indigo: #435b64;
+  --ui-madder: #9d493c;
+  --ui-clay: #b46b3f;
+  --ui-weld: #c29a3c;
+  --ui-risk-critical: var(--ui-madder);
+  --ui-risk-high: var(--ui-clay);
+  --ui-risk-medium: var(--ui-weld);
+  --ui-risk-low: var(--ui-sap);
+  --ui-focus-ring: rgba(64, 88, 59, 0.24);
+
+  --rl-brand: var(--ui-ink);
+  --rl-brand-light: var(--ui-sap);
+  --rl-gold: var(--ui-gold);
+  --rl-risk: var(--ui-risk-critical);
+  --rl-safe: var(--ui-risk-low);
+  --rl-bg: var(--ui-paper);
+  --rl-surface: var(--ui-surface);
+  --rl-surface-elevated: var(--ui-surface-muted);
+  --rl-border: var(--ui-border);
+  --rl-text-primary: var(--ui-ink);
+  --rl-text-secondary: var(--ui-graphite);
+  --rl-text-muted: var(--ui-muted);
+
+  --og-bg: var(--ui-paper);
+  --og-surface: var(--ui-surface);
+  --og-surface-elevated: var(--ui-surface-muted);
+  --og-surface-hover: var(--ui-surface-muted);
+  --og-border: var(--ui-border);
+  --og-divider: var(--ui-border);
+  --og-text-primary: var(--ui-ink);
+  --og-text-secondary: var(--ui-graphite);
+  --og-text-muted: var(--ui-muted);
+  --og-gold: var(--ui-gold);
+  --og-primary: var(--ui-sap);
+  --og-primary-light: var(--ui-sage);
+  --og-danger: var(--ui-risk-critical);
+  --og-danger-light: var(--ui-risk-high);
+  --og-safe: var(--ui-risk-low);
+  --og-safe-light: var(--ui-sage);
+  --og-warning: var(--ui-risk-medium);
+  --og-slate: var(--ui-indigo);
+  --og-warm-grey: var(--ui-muted);
+  --og-ink: var(--ui-charcoal);
+
+  --craft-shadow: 0 16px 38px rgba(73, 57, 31, 0.13);
+  --craft-shadow-soft: 0 8px 20px rgba(73, 57, 31, 0.09);
+  --craft-rule: 1px solid color-mix(in srgb, var(--ui-border) 86%, var(--ui-ink));
+  --craft-radius: 6px;
+  --craft-corner-size: 18px;
+  --craft-fiber:
+    radial-gradient(circle at 18% 22%, rgba(83, 76, 52, 0.08) 0 1px, transparent 1.6px),
+    radial-gradient(circle at 74% 12%, rgba(173, 127, 43, 0.08) 0 1px, transparent 1.7px),
+    radial-gradient(circle at 42% 84%, rgba(64, 88, 59, 0.07) 0 1px, transparent 1.5px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.28), transparent 36%, rgba(74, 57, 31, 0.035));
+}
+
+html.dark {
+  --ui-ink: #f2ead3;
+  --ui-paper: #1d2219;
+  --ui-surface: #263022;
+  --ui-charcoal: #f5edda;
+  --ui-graphite: #d1c5a8;
+  --ui-muted: #ad9f80;
+  --ui-silver: #766f58;
+  --ui-border: #635b45;
+  --ui-surface-muted: #303b2c;
+  --ui-gold: #c79a42;
+  --ui-sap: #91a979;
+  --ui-sage: #a7b693;
+  --ui-indigo: #7fa0a5;
+  --ui-madder: #cf6b5d;
+  --ui-clay: #cf8650;
+  --ui-weld: #d0aa4f;
+  --ui-focus-ring: rgba(145, 169, 121, 0.28);
+  --craft-shadow: 0 18px 44px rgba(0, 0, 0, 0.32);
+  --craft-shadow-soft: 0 10px 24px rgba(0, 0, 0, 0.24);
+}
+
+body {
+  font-family: 'Avenir Next', 'Segoe UI', 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', system-ui, sans-serif;
+  background-color: var(--rl-bg);
+  background-image:
+    var(--craft-fiber),
+    linear-gradient(135deg, color-mix(in srgb, var(--ui-sage) 10%, transparent) 0 1px, transparent 1px);
+  background-size: 180px 180px, 28px 28px;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+.el-button:focus-visible {
+  outline: 2px solid var(--ui-sap);
+  outline-offset: 2px;
+}
+
+.el-button {
+  --el-button-border-color: var(--rl-border);
+  --el-button-bg-color: var(--rl-surface);
+  --el-button-text-color: var(--rl-text-primary);
+  --el-button-hover-border-color: var(--ui-sap);
+  --el-button-hover-bg-color: color-mix(in srgb, var(--ui-sage) 16%, var(--rl-surface));
+  --el-button-hover-text-color: var(--ui-sap);
+  --el-border-radius-base: var(--craft-radius);
+  font-weight: 650;
+  letter-spacing: 0;
+}
+
+.el-button--primary {
+  --el-button-bg-color: var(--ui-sap);
+  --el-button-border-color: color-mix(in srgb, var(--ui-sap) 82%, var(--ui-ink));
+  --el-button-text-color: #fff9ea;
+  --el-button-hover-bg-color: color-mix(in srgb, var(--ui-sap) 82%, var(--ui-gold));
+  --el-button-hover-border-color: var(--ui-sap);
+}
+
+.el-card {
+  --el-card-bg-color: var(--rl-surface);
+  --el-card-border-color: var(--rl-border);
+  border-radius: var(--craft-radius);
+  box-shadow: var(--craft-shadow-soft);
+}
+
+.el-input__wrapper,
+.el-textarea__inner {
+  background-color: color-mix(in srgb, var(--rl-surface) 78%, var(--ui-paper));
+  border-radius: var(--craft-radius);
+  box-shadow: 0 0 0 1px var(--rl-border) inset;
+  color: var(--rl-text-primary);
+}
+
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 1px var(--ui-sap) inset, 0 0 0 3px var(--ui-focus-ring);
+}
+
+.el-input__inner,
+.el-textarea__inner {
+  color: var(--rl-text-primary);
+}
+
+.el-table {
+  --el-table-bg-color: transparent;
+  --el-table-tr-bg-color: var(--rl-surface);
+  --el-table-header-bg-color: var(--rl-surface-elevated);
+  --el-table-border-color: var(--rl-border);
+  --el-table-text-color: var(--rl-text-primary);
+  --el-table-header-text-color: var(--rl-text-secondary);
+}
+
+.el-menu {
+  --el-menu-active-color: var(--ui-sap);
+}
+
+.el-step__title.is-process,
+.el-step__head.is-process {
+  color: var(--ui-sap);
+  border-color: var(--ui-sap);
+}
+
+.el-progress-bar__inner {
+  background: linear-gradient(90deg, var(--ui-sap), var(--ui-gold));
+}
+
+.el-tag {
+  border-radius: 999px;
+}
+
+.el-dialog,
+.el-popper,
+.el-picker-panel {
+  border-radius: var(--craft-radius);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+}

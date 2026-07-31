@@ -1,0 +1,90 @@
+{
+  "id": "arts_and_crafts",
+  "name_en": "Arts and Crafts",
+  "name_zh": "工艺美术运动",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1860–1910",
+  "style_dna": {
+    "core": [
+      "truthful material-led structure",
+      "handmade repeat rhythm",
+      "integrated type and border system",
+      "craft-scale hierarchy"
+    ],
+    "secondary": [
+      "botanical or vernacular geometry",
+      "muted natural pigments"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "arts_and_crafts_h1",
+      "title": "V&A — Arts and Crafts movement",
+      "source_url": "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "arts_and_crafts_h2",
+      "title": "The Met — Arts and Crafts in Britain",
+      "source_url": "https://www.metmuseum.org/essays/arts-and-crafts-in-britain",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "arts_and_crafts_h3",
+      "title": "The William Morris Society",
+      "source_url": "https://williammorrissociety.org/",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/arts_and_crafts/previews/medium.png",
+    "styles/arts_and_crafts/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Built-in image generation; medium-intensity DNA prompt; no third-party image input; copied into project after successful generation.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "truthful material-led structure",
+      "handmade repeat rhythm",
+      "integrated type and border system"
+    ],
+    "veto": [
+      "Do not reduce to generic rustic texture, craft clip-art, or ornamental wallpaper."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-29T11:06:28+08:00",
+      "original_file": "C:\\Users\\86177\\.codex\\generated_images\\019fa16a-7fc6-7cb0-ae54-3151479be1c7\\exec-aad7a3a7-0ea4-4229-bab1-6d45f45df76d.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "arts_and_crafts_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/arts_and_crafts/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

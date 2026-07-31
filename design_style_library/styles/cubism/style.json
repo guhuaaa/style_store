@@ -1,0 +1,84 @@
+{
+  "id": "cubism",
+  "name_en": "Cubism",
+  "name_zh": "立体主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1907–1914",
+  "style_dna": {
+    "core": [
+      "simultaneous viewpoints",
+      "interlocking faceted planes",
+      "shallow assembled space",
+      "fragmented but legible hierarchy"
+    ],
+    "secondary": [
+      "earthy neutrals with selective color",
+      "collage-like material distinction"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PARTIAL_AI_GENERATION—PROVENANCE_RECORDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "cubism_h1",
+      "title": "MoMA — What Is Cubism?",
+      "source_url": "https://www.moma.org/collection/terms/cubism/what-is-cubism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "cubism_h2",
+      "title": "MoMA — Cubism",
+      "source_url": "https://www.moma.org/collection/terms/cubism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "cubism_h3",
+      "title": "Tate — Cubism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/c/cubism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/cubism/previews/low_rendered.png",
+    "styles/cubism/previews/medium_rendered.png",
+    "styles/cubism/previews/high_rendered.png",
+    "styles/cubism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Pending: short DNA prompt; single style and single intensity; generated image will be copied and provenance recorded.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "simultaneous viewpoints",
+      "interlocking faceted planes",
+      "shallow assembled space"
+    ],
+    "veto": [
+      "Do not reduce to low-poly decoration or a conventional card grid with angular corners."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "cubism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/cubism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

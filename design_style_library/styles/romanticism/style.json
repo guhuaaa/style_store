@@ -1,0 +1,84 @@
+{
+  "id": "romanticism",
+  "name_en": "Romanticism",
+  "name_zh": "浪漫主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1800–1850",
+  "style_dna": {
+    "core": [
+      "sublime scale contrast",
+      "atmospheric depth",
+      "diagonal weather or light movement",
+      "small human-scale focal point"
+    ],
+    "secondary": [
+      "luminous dusk and storm color",
+      "soft-to-sharp depth transitions"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PARTIAL_AI_GENERATION—PROVENANCE_RECORDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "romanticism_h1",
+      "title": "The Met — Romanticism",
+      "source_url": "https://www.metmuseum.org/essays/romanticism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "romanticism_h2",
+      "title": "The Met — Romanticism collection search",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Romanticism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "romanticism_h3",
+      "title": "Tate — Romanticism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/r/romanticism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/romanticism/previews/low_rendered.png",
+    "styles/romanticism/previews/medium_rendered.png",
+    "styles/romanticism/previews/high_rendered.png",
+    "styles/romanticism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Pending: short DNA prompt; single style and single intensity; generated image will be copied and provenance recorded.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "sublime scale contrast",
+      "atmospheric depth",
+      "diagonal weather or light movement"
+    ],
+    "veto": [
+      "Do not reduce to a dark scenic backdrop or an emotional poster."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "romanticism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/romanticism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

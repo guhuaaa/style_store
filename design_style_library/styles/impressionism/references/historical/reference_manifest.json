@@ -1,0 +1,29 @@
+[
+  {
+    "id": "impressionism_h1",
+    "title": "The Met — Impressionism overview",
+    "source_url": "https://www.metmuseum.org/toah/hd/imml/hd_imml.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "impressionism_h2",
+    "title": "The Met — Impressionism collection search",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Impressionism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "impressionism_h3",
+    "title": "Tate — Impressionism",
+    "source_url": "https://www.tate.org.uk/art/art-terms/i/impressionism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

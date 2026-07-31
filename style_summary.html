@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>风格汇总表</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f0e6;
+      --paper: #fffaf0;
+      --ink: #2d281f;
+      --muted: #6f6758;
+      --line: #d8cbb6;
+      --accent: #6f7f55;
+      --accent-dark: #3f5037;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+      line-height: 1.55;
+    }
+
+    main {
+      width: min(1760px, calc(100vw - 48px));
+      margin: 32px auto 48px;
+    }
+
+    header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(28px, 3vw, 44px);
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .summary {
+      color: var(--accent-dark);
+      font-size: 15px;
+      white-space: nowrap;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      box-shadow: 0 10px 30px rgba(45, 40, 31, 0.08);
+    }
+
+    table {
+      width: 100%;
+      min-width: 1180px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      padding: 14px 16px;
+      vertical-align: middle;
+      text-align: left;
+    }
+
+    th:last-child,
+    td:last-child {
+      border-right: 0;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #efe5d2;
+      color: var(--accent-dark);
+      font-size: 15px;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    tbody tr:nth-child(even) {
+      background: rgba(111, 127, 85, 0.055);
+    }
+
+    .style-name {
+      width: 160px;
+      font-size: 18px;
+      white-space: nowrap;
+    }
+
+    code {
+      color: var(--accent-dark);
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .preview-link {
+      display: block;
+      width: 300px;
+      height: 200px;
+      border: 1px solid #b7aa90;
+      background: #e9dfca;
+      overflow: hidden;
+    }
+
+    .preview {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .lightbox {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+      background: rgba(20, 18, 14, 0.78);
+      z-index: 20;
+    }
+
+    .lightbox.is-open {
+      display: flex;
+    }
+
+    .lightbox img {
+      max-width: min(96vw, 1536px);
+      max-height: 92vh;
+      border: 1px solid rgba(255, 250, 240, 0.45);
+      background: var(--paper);
+      box-shadow: 0 18px 60px rgba(0, 0, 0, 0.4);
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: calc(100vw - 24px);
+        margin: 18px auto 32px;
+      }
+
+      header {
+        display: block;
+      }
+
+      .summary {
+        margin-top: 8px;
+        white-space: normal;
+      }
+
+      th,
+      td {
+        padding: 12px;
+      }
+
+      .preview-link {
+        width: 240px;
+        height: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>风格汇总表</h1>
+        <p class="meta">原前端预览图和新概述预览图分列展示；概述预览图统一放在最后一列。</p>
+      </div>
+      <div class="summary">共 32 种风格</div>
+    </header>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>风格名称</th>
+            <th>风格 ID</th>
+            <th>前端提示词</th>
+            <th>图像提示词</th>
+            <th>前端预览图</th>
+            <th>概述预览图</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr data-style="abstract_expressionism">
+          <td class="style-name">抽象表现主义</td>
+          <td><code>abstract_expressionism</code></td>
+          <td>选择抽象表现主义风格，落地这个项目的前端</td>
+          <td>选择抽象表现主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/abstract_expressionism/previews/medium_chatgpt_rendered.png" title="打开 抽象表现主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/abstract_expressionism/previews/medium_chatgpt_rendered.png" alt="抽象表现主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/abstract_expressionism/previews/overview_chatgpt_rendered.png" title="打开 抽象表现主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/abstract_expressionism/previews/overview_chatgpt_rendered.png" alt="抽象表现主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="art_deco">
+          <td class="style-name">装饰艺术</td>
+          <td><code>art_deco</code></td>
+          <td>选择装饰艺术风格，落地这个项目的前端</td>
+          <td>选择装饰艺术风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/art_deco/previews/medium.png" title="打开 装饰艺术 前端预览图">
+              <img class="preview" src="design_style_library/styles/art_deco/previews/medium.png" alt="装饰艺术前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/art_deco/previews/overview_chatgpt_rendered.png" title="打开 装饰艺术 概述预览图">
+              <img class="preview" src="design_style_library/styles/art_deco/previews/overview_chatgpt_rendered.png" alt="装饰艺术概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="art_nouveau">
+          <td class="style-name">新艺术</td>
+          <td><code>art_nouveau</code></td>
+          <td>选择新艺术风格，落地这个项目的前端</td>
+          <td>选择新艺术风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/art_nouveau/previews/medium.png" title="打开 新艺术 前端预览图">
+              <img class="preview" src="design_style_library/styles/art_nouveau/previews/medium.png" alt="新艺术前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/art_nouveau/previews/overview_chatgpt_rendered.png" title="打开 新艺术 概述预览图">
+              <img class="preview" src="design_style_library/styles/art_nouveau/previews/overview_chatgpt_rendered.png" alt="新艺术概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="arts_and_crafts">
+          <td class="style-name">工艺美术运动</td>
+          <td><code>arts_and_crafts</code></td>
+          <td>选择工艺美术运动风格，落地这个项目的前端</td>
+          <td>选择工艺美术运动风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/arts_and_crafts/previews/medium.png" title="打开 工艺美术运动 前端预览图">
+              <img class="preview" src="design_style_library/styles/arts_and_crafts/previews/medium.png" alt="工艺美术运动前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/arts_and_crafts/previews/overview_chatgpt_rendered.png" title="打开 工艺美术运动 概述预览图">
+              <img class="preview" src="design_style_library/styles/arts_and_crafts/previews/overview_chatgpt_rendered.png" alt="工艺美术运动概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="baroque">
+          <td class="style-name">巴洛克</td>
+          <td><code>baroque</code></td>
+          <td>选择巴洛克风格，落地这个项目的前端</td>
+          <td>选择巴洛克风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/baroque/previews/medium_rendered.png" title="打开 巴洛克 前端预览图">
+              <img class="preview" src="design_style_library/styles/baroque/previews/medium_rendered.png" alt="巴洛克前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/baroque/previews/overview_chatgpt_rendered.png" title="打开 巴洛克 概述预览图">
+              <img class="preview" src="design_style_library/styles/baroque/previews/overview_chatgpt_rendered.png" alt="巴洛克概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="bauhaus">
+          <td class="style-name">包豪斯</td>
+          <td><code>bauhaus</code></td>
+          <td>选择包豪斯风格，落地这个项目的前端</td>
+          <td>选择包豪斯风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/bauhaus/previews/medium_v2.png" title="打开 包豪斯 前端预览图">
+              <img class="preview" src="design_style_library/styles/bauhaus/previews/medium_v2.png" alt="包豪斯前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/bauhaus/previews/overview_chatgpt_rendered.png" title="打开 包豪斯 概述预览图">
+              <img class="preview" src="design_style_library/styles/bauhaus/previews/overview_chatgpt_rendered.png" alt="包豪斯概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="color_field">
+          <td class="style-name">色域绘画</td>
+          <td><code>color_field</code></td>
+          <td>选择色域绘画风格，落地这个项目的前端</td>
+          <td>选择色域绘画风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/color_field/previews/medium_chatgpt_rendered.png" title="打开 色域绘画 前端预览图">
+              <img class="preview" src="design_style_library/styles/color_field/previews/medium_chatgpt_rendered.png" alt="色域绘画前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/color_field/previews/overview_chatgpt_rendered.png" title="打开 色域绘画 概述预览图">
+              <img class="preview" src="design_style_library/styles/color_field/previews/overview_chatgpt_rendered.png" alt="色域绘画概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="constructivism">
+          <td class="style-name">构成主义</td>
+          <td><code>constructivism</code></td>
+          <td>选择构成主义风格，落地这个项目的前端</td>
+          <td>选择构成主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/constructivism/previews/medium.png" title="打开 构成主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/constructivism/previews/medium.png" alt="构成主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/constructivism/previews/overview_chatgpt_rendered.png" title="打开 构成主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/constructivism/previews/overview_chatgpt_rendered.png" alt="构成主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="cubism">
+          <td class="style-name">立体主义</td>
+          <td><code>cubism</code></td>
+          <td>选择立体主义风格，落地这个项目的前端</td>
+          <td>选择立体主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/cubism/previews/medium_rendered.png" title="打开 立体主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/cubism/previews/medium_rendered.png" alt="立体主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/cubism/previews/overview_chatgpt_rendered.png" title="打开 立体主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/cubism/previews/overview_chatgpt_rendered.png" alt="立体主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="dada">
+          <td class="style-name">达达主义</td>
+          <td><code>dada</code></td>
+          <td>选择达达主义风格，落地这个项目的前端</td>
+          <td>选择达达主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/dada/previews/medium_rendered.png" title="打开 达达主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/dada/previews/medium_rendered.png" alt="达达主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/dada/previews/overview_chatgpt_rendered.png" title="打开 达达主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/dada/previews/overview_chatgpt_rendered.png" alt="达达主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="de_stijl">
+          <td class="style-name">风格派</td>
+          <td><code>de_stijl</code></td>
+          <td>选择风格派风格，落地这个项目的前端</td>
+          <td>选择风格派风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/de_stijl/previews/medium_v2.png" title="打开 风格派 前端预览图">
+              <img class="preview" src="design_style_library/styles/de_stijl/previews/medium_v2.png" alt="风格派前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/de_stijl/previews/overview_chatgpt_rendered.png" title="打开 风格派 概述预览图">
+              <img class="preview" src="design_style_library/styles/de_stijl/previews/overview_chatgpt_rendered.png" alt="风格派概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="expressionism">
+          <td class="style-name">表现主义</td>
+          <td><code>expressionism</code></td>
+          <td>选择表现主义风格，落地这个项目的前端</td>
+          <td>选择表现主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/expressionism/previews/medium_rendered.png" title="打开 表现主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/expressionism/previews/medium_rendered.png" alt="表现主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/expressionism/previews/overview_chatgpt_rendered.png" title="打开 表现主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/expressionism/previews/overview_chatgpt_rendered.png" alt="表现主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="fauvism">
+          <td class="style-name">野兽派</td>
+          <td><code>fauvism</code></td>
+          <td>选择野兽派风格，落地这个项目的前端</td>
+          <td>选择野兽派风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/fauvism/previews/medium_chatgpt_rendered.png" title="打开 野兽派 前端预览图">
+              <img class="preview" src="design_style_library/styles/fauvism/previews/medium_chatgpt_rendered.png" alt="野兽派前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/fauvism/previews/overview_chatgpt_rendered.png" title="打开 野兽派 概述预览图">
+              <img class="preview" src="design_style_library/styles/fauvism/previews/overview_chatgpt_rendered.png" alt="野兽派概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="futurism">
+          <td class="style-name">未来主义</td>
+          <td><code>futurism</code></td>
+          <td>选择未来主义风格，落地这个项目的前端</td>
+          <td>选择未来主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/futurism/previews/medium_rendered.png" title="打开 未来主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/futurism/previews/medium_rendered.png" alt="未来主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/futurism/previews/overview_chatgpt_rendered.png" title="打开 未来主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/futurism/previews/overview_chatgpt_rendered.png" alt="未来主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="hard_edge">
+          <td class="style-name">硬边绘画</td>
+          <td><code>hard_edge</code></td>
+          <td>选择硬边绘画风格，落地这个项目的前端</td>
+          <td>选择硬边绘画风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/hard_edge/previews/medium_chatgpt_rendered.png" title="打开 硬边绘画 前端预览图">
+              <img class="preview" src="design_style_library/styles/hard_edge/previews/medium_chatgpt_rendered.png" alt="硬边绘画前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/hard_edge/previews/overview_chatgpt_rendered.png" title="打开 硬边绘画 概述预览图">
+              <img class="preview" src="design_style_library/styles/hard_edge/previews/overview_chatgpt_rendered.png" alt="硬边绘画概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="impressionism">
+          <td class="style-name">印象派</td>
+          <td><code>impressionism</code></td>
+          <td>选择印象派风格，落地这个项目的前端</td>
+          <td>选择印象派风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/impressionism/previews/medium_rendered.png" title="打开 印象派 前端预览图">
+              <img class="preview" src="design_style_library/styles/impressionism/previews/medium_rendered.png" alt="印象派前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/impressionism/previews/overview_chatgpt_rendered.png" title="打开 印象派 概述预览图">
+              <img class="preview" src="design_style_library/styles/impressionism/previews/overview_chatgpt_rendered.png" alt="印象派概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="mexican_muralism">
+          <td class="style-name">墨西哥壁画运动</td>
+          <td><code>mexican_muralism</code></td>
+          <td>选择墨西哥壁画运动风格，落地这个项目的前端</td>
+          <td>选择墨西哥壁画运动风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/mexican_muralism/previews/medium_chatgpt_rendered.png" title="打开 墨西哥壁画运动 前端预览图">
+              <img class="preview" src="design_style_library/styles/mexican_muralism/previews/medium_chatgpt_rendered.png" alt="墨西哥壁画运动前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/mexican_muralism/previews/overview_chatgpt_rendered.png" title="打开 墨西哥壁画运动 概述预览图">
+              <img class="preview" src="design_style_library/styles/mexican_muralism/previews/overview_chatgpt_rendered.png" alt="墨西哥壁画运动概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="minimalism_art">
+          <td class="style-name">极简主义</td>
+          <td><code>minimalism_art</code></td>
+          <td>选择极简主义风格，落地这个项目的前端</td>
+          <td>选择极简主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/minimalism_art/previews/medium_chatgpt_rendered.png" title="打开 极简主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/minimalism_art/previews/medium_chatgpt_rendered.png" alt="极简主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/minimalism_art/previews/overview_chatgpt_rendered.png" title="打开 极简主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/minimalism_art/previews/overview_chatgpt_rendered.png" alt="极简主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="neoclassicism">
+          <td class="style-name">新古典主义</td>
+          <td><code>neoclassicism</code></td>
+          <td>选择新古典主义风格，落地这个项目的前端</td>
+          <td>选择新古典主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/neoclassicism/previews/medium_rendered.png" title="打开 新古典主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/neoclassicism/previews/medium_rendered.png" alt="新古典主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/neoclassicism/previews/overview_chatgpt_rendered.png" title="打开 新古典主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/neoclassicism/previews/overview_chatgpt_rendered.png" alt="新古典主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="op_art">
+          <td class="style-name">欧普艺术</td>
+          <td><code>op_art</code></td>
+          <td>选择欧普艺术风格，落地这个项目的前端</td>
+          <td>选择欧普艺术风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/op_art/previews/medium_chatgpt_rendered.png" title="打开 欧普艺术 前端预览图">
+              <img class="preview" src="design_style_library/styles/op_art/previews/medium_chatgpt_rendered.png" alt="欧普艺术前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/op_art/previews/overview_chatgpt_rendered.png" title="打开 欧普艺术 概述预览图">
+              <img class="preview" src="design_style_library/styles/op_art/previews/overview_chatgpt_rendered.png" alt="欧普艺术概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="orphism">
+          <td class="style-name">奥费主义</td>
+          <td><code>orphism</code></td>
+          <td>选择奥费主义风格，落地这个项目的前端</td>
+          <td>选择奥费主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/orphism/previews/medium_chatgpt_rendered.png" title="打开 奥费主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/orphism/previews/medium_chatgpt_rendered.png" alt="奥费主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/orphism/previews/overview_chatgpt_rendered.png" title="打开 奥费主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/orphism/previews/overview_chatgpt_rendered.png" alt="奥费主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="pop_art">
+          <td class="style-name">波普艺术</td>
+          <td><code>pop_art</code></td>
+          <td>选择波普艺术风格，落地这个项目的前端</td>
+          <td>选择波普艺术风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/pop_art/previews/medium.png" title="打开 波普艺术 前端预览图">
+              <img class="preview" src="design_style_library/styles/pop_art/previews/medium.png" alt="波普艺术前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/pop_art/previews/overview_chatgpt_rendered.png" title="打开 波普艺术 概述预览图">
+              <img class="preview" src="design_style_library/styles/pop_art/previews/overview_chatgpt_rendered.png" alt="波普艺术概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="post_impressionism">
+          <td class="style-name">后印象派</td>
+          <td><code>post_impressionism</code></td>
+          <td>选择后印象派风格，落地这个项目的前端</td>
+          <td>选择后印象派风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/post_impressionism/previews/medium_rendered.png" title="打开 后印象派 前端预览图">
+              <img class="preview" src="design_style_library/styles/post_impressionism/previews/medium_rendered.png" alt="后印象派前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/post_impressionism/previews/overview_chatgpt_rendered.png" title="打开 后印象派 概述预览图">
+              <img class="preview" src="design_style_library/styles/post_impressionism/previews/overview_chatgpt_rendered.png" alt="后印象派概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="precisionism">
+          <td class="style-name">精确主义</td>
+          <td><code>precisionism</code></td>
+          <td>选择精确主义风格，落地这个项目的前端</td>
+          <td>选择精确主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/precisionism/previews/medium_chatgpt_rendered.png" title="打开 精确主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/precisionism/previews/medium_chatgpt_rendered.png" alt="精确主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/precisionism/previews/overview_chatgpt_rendered.png" title="打开 精确主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/precisionism/previews/overview_chatgpt_rendered.png" alt="精确主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="renaissance">
+          <td class="style-name">文艺复兴</td>
+          <td><code>renaissance</code></td>
+          <td>选择文艺复兴风格，落地这个项目的前端</td>
+          <td>选择文艺复兴风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/renaissance/previews/medium_rendered.png" title="打开 文艺复兴 前端预览图">
+              <img class="preview" src="design_style_library/styles/renaissance/previews/medium_rendered.png" alt="文艺复兴前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/renaissance/previews/overview_chatgpt_rendered.png" title="打开 文艺复兴 概述预览图">
+              <img class="preview" src="design_style_library/styles/renaissance/previews/overview_chatgpt_rendered.png" alt="文艺复兴概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="rococo">
+          <td class="style-name">洛可可</td>
+          <td><code>rococo</code></td>
+          <td>选择洛可可风格，落地这个项目的前端</td>
+          <td>选择洛可可风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/rococo/previews/medium_rendered.png" title="打开 洛可可 前端预览图">
+              <img class="preview" src="design_style_library/styles/rococo/previews/medium_rendered.png" alt="洛可可前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/rococo/previews/overview_chatgpt_rendered.png" title="打开 洛可可 概述预览图">
+              <img class="preview" src="design_style_library/styles/rococo/previews/overview_chatgpt_rendered.png" alt="洛可可概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="romanticism">
+          <td class="style-name">浪漫主义</td>
+          <td><code>romanticism</code></td>
+          <td>选择浪漫主义风格，落地这个项目的前端</td>
+          <td>选择浪漫主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/romanticism/previews/medium_rendered.png" title="打开 浪漫主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/romanticism/previews/medium_rendered.png" alt="浪漫主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/romanticism/previews/overview_chatgpt_rendered.png" title="打开 浪漫主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/romanticism/previews/overview_chatgpt_rendered.png" alt="浪漫主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="suprematism">
+          <td class="style-name">至上主义</td>
+          <td><code>suprematism</code></td>
+          <td>选择至上主义风格，落地这个项目的前端</td>
+          <td>选择至上主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/suprematism/previews/medium_rendered.png" title="打开 至上主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/suprematism/previews/medium_rendered.png" alt="至上主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/suprematism/previews/overview_chatgpt_rendered.png" title="打开 至上主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/suprematism/previews/overview_chatgpt_rendered.png" alt="至上主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="surrealism">
+          <td class="style-name">超现实主义</td>
+          <td><code>surrealism</code></td>
+          <td>选择超现实主义风格，落地这个项目的前端</td>
+          <td>选择超现实主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/surrealism/previews/medium.png" title="打开 超现实主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/surrealism/previews/medium.png" alt="超现实主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/surrealism/previews/overview_chatgpt_rendered.png" title="打开 超现实主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/surrealism/previews/overview_chatgpt_rendered.png" alt="超现实主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="symbolism">
+          <td class="style-name">象征主义</td>
+          <td><code>symbolism</code></td>
+          <td>选择象征主义风格，落地这个项目的前端</td>
+          <td>选择象征主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/symbolism/previews/medium_hybrid_rendered.png" title="打开 象征主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/symbolism/previews/medium_hybrid_rendered.png" alt="象征主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/symbolism/previews/overview_chatgpt_rendered.png" title="打开 象征主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/symbolism/previews/overview_chatgpt_rendered.png" alt="象征主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="ukiyo_e">
+          <td class="style-name">浮世绘</td>
+          <td><code>ukiyo_e</code></td>
+          <td>选择浮世绘风格，落地这个项目的前端</td>
+          <td>选择浮世绘风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/ukiyo_e/previews/medium.png" title="打开 浮世绘 前端预览图">
+              <img class="preview" src="design_style_library/styles/ukiyo_e/previews/medium.png" alt="浮世绘前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/ukiyo_e/previews/overview_chatgpt_rendered.png" title="打开 浮世绘 概述预览图">
+              <img class="preview" src="design_style_library/styles/ukiyo_e/previews/overview_chatgpt_rendered.png" alt="浮世绘概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        <tr data-style="vorticism">
+          <td class="style-name">漩涡主义</td>
+          <td><code>vorticism</code></td>
+          <td>选择漩涡主义风格，落地这个项目的前端</td>
+          <td>选择漩涡主义风格制图</td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/vorticism/previews/medium_chatgpt_rendered.png" title="打开 漩涡主义 前端预览图">
+              <img class="preview" src="design_style_library/styles/vorticism/previews/medium_chatgpt_rendered.png" alt="漩涡主义前端预览图" loading="lazy">
+            </a>
+          </td>
+          <td>
+            <a class="preview-link" href="design_style_library/styles/vorticism/previews/overview_chatgpt_rendered.png" title="打开 漩涡主义 概述预览图">
+              <img class="preview" src="design_style_library/styles/vorticism/previews/overview_chatgpt_rendered.png" alt="漩涡主义概述预览图" loading="lazy">
+            </a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <img id="lightbox-image" alt="">
+  </div>
+
+  <script>
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImage = document.getElementById("lightbox-image");
+
+    document.querySelectorAll(".preview-link").forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        lightboxImage.src = link.href;
+        lightboxImage.alt = link.querySelector("img").alt;
+        lightbox.classList.add("is-open");
+        lightbox.setAttribute("aria-hidden", "false");
+      });
+    });
+
+    lightbox.addEventListener("click", () => {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      lightboxImage.removeAttribute("src");
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") {
+        lightbox.click();
+      }
+    });
+  </script>
+</body>
+</html>

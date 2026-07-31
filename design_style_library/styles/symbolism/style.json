@@ -1,0 +1,82 @@
+{
+  "id": "symbolism",
+  "name_en": "Symbolism",
+  "name_zh": "象征主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1880–1910",
+  "style_dna": {
+    "core": [
+      "allegorical focal image",
+      "suggestive rather than literal hierarchy",
+      "quiet symbolic correspondences",
+      "atmospheric enclosed space"
+    ],
+    "secondary": [
+      "jewel-toned dusk palette",
+      "decorative contour"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "AI_ASSISTED_HYBRID_RENDER—PROVENANCE_RECORDED—CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "symbolism_h1",
+      "title": "The Met — Symbolism",
+      "source_url": "https://www.metmuseum.org/toah/hd/symb/hd_symb.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "symbolism_h2",
+      "title": "Tate — Symbolism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/s/symbolism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "symbolism_h3",
+      "title": "MoMA — Symbolism",
+      "source_url": "https://www.moma.org/collection/terms/symbolism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/symbolism/previews/medium_hybrid_rendered.png",
+    "styles/symbolism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Hybrid preview: built-in image generation produced a short-prompt original Symbolism motif; project-authored HTML/CSS/SVG preserves readable interface structure and composes the final preview.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "allegorical focal image",
+      "suggestive rather than literal hierarchy",
+      "quiet symbolic correspondences"
+    ],
+    "veto": [
+      "Do not confuse with Surrealism: avoid arbitrary dream objects and retain intentional symbolic clarity."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "symbolism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/symbolism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

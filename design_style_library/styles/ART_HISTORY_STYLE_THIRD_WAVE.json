@@ -1,0 +1,92 @@
+{
+  "wave": 3,
+  "count": 12,
+  "created_at": "2026-07-29T10:37:46+08:00",
+  "policy": "Local design research and visual analysis only; never publish as owned commercial asset.",
+  "styles": [
+    {
+      "id": "arts_and_crafts",
+      "name_en": "Arts and Crafts",
+      "name_zh": "宸ヨ壓缇庢湳杩愬姩",
+      "path": "styles/arts_and_crafts",
+      "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "symbolism",
+      "name_en": "Symbolism",
+      "name_zh": "璞″緛涓讳箟",
+      "path": "styles/symbolism",
+      "preview_status": "AI_ASSISTED_HYBRID_RENDER—PROVENANCE_RECORDED—CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "fauvism",
+      "name_en": "Fauvism",
+      "name_zh": "Fauvism",
+      "path": "styles/fauvism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "orphism",
+      "name_en": "Orphism",
+      "name_zh": "濂ヨ垂涓讳箟",
+      "path": "styles/orphism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "vorticism",
+      "name_en": "Vorticism",
+      "name_zh": "婕╂丁涓讳箟",
+      "path": "styles/vorticism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "precisionism",
+      "name_en": "Precisionism",
+      "name_zh": "绮剧‘涓讳箟",
+      "path": "styles/precisionism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "abstract_expressionism",
+      "name_en": "Abstract Expressionism",
+      "name_zh": "鎶借薄琛ㄧ幇涓讳箟",
+      "path": "styles/abstract_expressionism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "color_field",
+      "name_en": "Color Field Painting",
+      "name_zh": "鑹插煙缁樼敾",
+      "path": "styles/color_field",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "hard_edge",
+      "name_en": "Hard-edge Painting",
+      "name_zh": "纭竟缁樼敾",
+      "path": "styles/hard_edge",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "op_art",
+      "name_en": "Op Art",
+      "name_zh": "娆ф櫘鑹烘湳",
+      "path": "styles/op_art",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "minimalism_art",
+      "name_en": "Minimalism",
+      "name_zh": "鏋佺畝涓讳箟",
+      "path": "styles/minimalism_art",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    },
+    {
+      "id": "mexican_muralism",
+      "name_en": "Mexican Muralism",
+      "name_zh": "Mexican Muralism",
+      "path": "styles/mexican_muralism",
+      "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED"
+    }
+  ]
+}

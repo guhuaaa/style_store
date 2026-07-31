@@ -1,0 +1,123 @@
+{
+  "id": "bauhaus",
+  "name_en": "Bauhaus",
+  "name_zh": "包豪斯",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "1919–1933",
+  "style_dna": {
+    "core": [
+      "functional geometry",
+      "asymmetric grid",
+      "shape-based information hierarchy",
+      "limited primary color as function"
+    ],
+    "secondary": [
+      "sans-serif hierarchy",
+      "industrial surface"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PAIRWISE_REGEN_REQUIRED—CURRENT_MEDIUM_CONFOUNDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "bauhaus_h1",
+      "title": "MoMA — Moholy-Nagy, Konstruktionen",
+      "source_url": "https://www.moma.org/collection/works/68722",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "bauhaus_h2",
+      "title": "Bauhaus Dessau Foundation — Bauhaus history",
+      "source_url": "https://www.bauhaus-dessau.de/en/geschichte.html",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "bauhaus_h3",
+      "title": "The Met — Bauhaus essay",
+      "source_url": "https://www.metmuseum.org/toah/hd/bauh/hd_bauh.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/bauhaus/previews/low.png",
+    "styles/bauhaus/previews/medium.png",
+    "styles/bauhaus/previews/high.png",
+    "styles/bauhaus/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+  "blind_visual_validation": {
+    "test_type": "8-way label-hidden visual discrimination",
+    "top_1_recognition": 100,
+    "top_3_recognition": 100,
+    "previews": [
+      {
+        "level": "low",
+        "style_fidelity": 85,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "medium",
+        "style_fidelity": 92,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "high",
+        "style_fidelity": 94,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      }
+    ],
+    "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+    "result": "PASS"
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID",
+    "USABILITY_VALID"
+  ],
+  "pairwise_differentiation": {
+    "nearest_neighbors": [
+      "de_stijl",
+      "pop_art"
+    ],
+    "required_signature": "functional asymmetry; circles plus directional geometry; color tied to task role",
+    "veto": "Mondrian-like full black grid, regular all-rectangle pane matrix, halftone/comic contour",
+    "status": "FAIL—REGENERATE_WITH_GUARDRAILS"
+  },
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "bauhaus_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/bauhaus/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

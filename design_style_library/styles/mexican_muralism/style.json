@@ -1,0 +1,92 @@
+{
+  "id": "mexican_muralism",
+  "name_en": "Mexican Muralism",
+  "name_zh": "Mexican Muralism",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1920鈥?970",
+  "style_dna": {
+    "core": [
+      "monumental narrative bands",
+      "public-scale collective figures",
+      "architectural integration",
+      "earth-and-mineral color hierarchy"
+    ],
+    "secondary": [
+      "bold contour grouping",
+      "social narrative sequencing"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "mexican_muralism_h1",
+      "title": "MoMA 鈥?Mexican Muralism",
+      "source_url": "https://www.moma.org/collection/terms/mexican-muralism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY 鈥?image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "mexican_muralism_h2",
+      "title": "The Met 鈥?Mexican Muralism",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Mexican%20Muralism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY 鈥?image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "mexican_muralism_h3",
+      "title": "Museo Mural Diego Rivera",
+      "source_url": "https://www.inba.gob.mx/recinto/63/museo-mural-diego-rivera",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY 鈥?image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/mexican_muralism/previews/medium_chatgpt_rendered.png",
+    "styles/mexican_muralism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "ChatGPT web generated a local Playwright renderer from Style DNA/UI constraints; project-authored HTML/CSS/SVG was captured as a 1536x1024 frontend preview; no third-party image input or remote asset was used.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "monumental narrative bands",
+      "public-scale collective figures",
+      "architectural integration"
+    ],
+    "veto": [
+      "Do not reduce to tourist motifs or nationalist ornament; preserve legible collective narrative structure."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T10:31:43+08:00",
+      "prompt_id": "mexican_muralism_medium_chatgpt_frontend_v1",
+      "renderer": "tools/render_third_wave_chatgpt_previews.cjs",
+      "output": "styles/mexican_muralism/previews/medium_chatgpt_rendered.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "mexican_muralism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/mexican_muralism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

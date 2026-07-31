@@ -1,0 +1,29 @@
+[
+  {
+    "id": "fauvism_h1",
+    "title": "The Met — Fauvism",
+    "source_url": "https://www.metmuseum.org/toah/hd/fauv/hd_fauv.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "fauvism_h2",
+    "title": "Tate — Fauvism",
+    "source_url": "https://www.tate.org.uk/art/art-terms/f/fauvism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "fauvism_h3",
+    "title": "MoMA — Henri Matisse",
+    "source_url": "https://www.moma.org/artists/3832",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

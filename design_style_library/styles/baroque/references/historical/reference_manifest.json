@@ -1,0 +1,29 @@
+[
+  {
+    "id": "baroque_h1",
+    "title": "The Met — Baroque art overview",
+    "source_url": "https://www.metmuseum.org/toah/hd/baro/hd_baro.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "baroque_h2",
+    "title": "The Met — European paintings collection",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?department=11",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "baroque_h3",
+    "title": "National Gallery — Baroque",
+    "source_url": "https://www.nationalgallery.org.uk/paintings/learn-about-art/baroque-art",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hard_edge_h1",
+    "title": "Tate — Hard-edge Painting",
+    "source_url": "https://www.tate.org.uk/art/art-terms/h/hard-edge-painting",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "hard_edge_h2",
+    "title": "LACMA — Hard-edge Painting",
+    "source_url": "https://www.lacma.org/art/exhibition/california-hard-edge",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "hard_edge_h3",
+    "title": "The Met — Ellsworth Kelly",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Ellsworth%20Kelly",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

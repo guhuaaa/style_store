@@ -1,0 +1,92 @@
+{
+  "id": "color_field",
+  "name_en": "Color Field Painting",
+  "name_zh": "色域绘画",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1947–1970",
+  "style_dna": {
+    "core": [
+      "large unbroken chromatic fields",
+      "subtle edge breathing",
+      "low-object spatial calm",
+      "color as atmosphere and hierarchy"
+    ],
+    "secondary": [
+      "tonal adjacency",
+      "minimal internal detail"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "color_field_h1",
+      "title": "Tate — Colour Field Painting",
+      "source_url": "https://www.tate.org.uk/art/art-terms/c/colour-field-painting",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "color_field_h2",
+      "title": "MoMA — Color Field",
+      "source_url": "https://www.moma.org/collection/terms/color-field",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "color_field_h3",
+      "title": "The National Gallery of Art — Color Field",
+      "source_url": "https://www.nga.gov/artists/3072-mark-rothko.html",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/color_field/previews/medium_chatgpt_rendered.png",
+    "styles/color_field/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "ChatGPT web generated a local Playwright renderer from Style DNA/UI constraints; project-authored HTML/CSS/SVG was captured as a 1536x1024 frontend preview; no third-party image input or remote asset was used.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "large unbroken chromatic fields",
+      "subtle edge breathing",
+      "low-object spatial calm"
+    ],
+    "veto": [
+      "Do not reduce to a gradient background or a blank interface; preserve tonal field relationships."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T10:31:43+08:00",
+      "prompt_id": "color_field_medium_chatgpt_frontend_v1",
+      "renderer": "tools/render_third_wave_chatgpt_previews.cjs",
+      "output": "styles/color_field/previews/medium_chatgpt_rendered.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "color_field_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/color_field/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

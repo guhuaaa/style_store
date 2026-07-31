@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rococo_h1",
+    "title": "The Met — Rococo art overview",
+    "source_url": "https://www.metmuseum.org/toah/hd/roco/hd_roco.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "rococo_h2",
+    "title": "The Met — European decorative arts",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?department=12",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "rococo_h3",
+    "title": "V&A — Rococo",
+    "source_url": "https://www.vam.ac.uk/articles/rococo-style",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-28T13:32:52+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

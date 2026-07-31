@@ -1,0 +1,443 @@
+[
+  {
+    "id": "art_bauhaus",
+    "name_en": "Bauhaus",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_swiss_graphic",
+    "name_en": "Swiss Style",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_constructivism",
+    "name_en": "Constructivism",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_de_stijl",
+    "name_en": "De Stijl",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_art_deco",
+    "name_en": "Art Deco",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_art_nouveau",
+    "name_en": "Art Nouveau",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_memphis",
+    "name_en": "Memphis",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_pop_art",
+    "name_en": "Pop Art",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_postmodernism",
+    "name_en": "Postmodernism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_flat_illustration",
+    "name_en": "Flat Illustration",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_vector_illustration",
+    "name_en": "Vector Illustration",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_line_art",
+    "name_en": "Line Art",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_hand_drawn",
+    "name_en": "Hand-drawn",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_sketch",
+    "name_en": "Sketch",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_ink_illustration",
+    "name_en": "Ink Illustration",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_woodcut",
+    "name_en": "Woodcut",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_screen_print",
+    "name_en": "Screen Print",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_risograph",
+    "name_en": "Risograph",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_paper_cut",
+    "name_en": "Paper Cut",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_collage",
+    "name_en": "Collage",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_editorial_illustration",
+    "name_en": "Editorial Illustration",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_chinese_ink",
+    "name_en": "Chinese Ink Painting",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_gongbi",
+    "name_en": "Gongbi",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_chinese_woodblock",
+    "name_en": "Chinese Woodblock",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_dunhuang",
+    "name_en": "Dunhuang-inspired",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_song_painting",
+    "name_en": "Song Dynasty Painting",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_ukiyo_e",
+    "name_en": "Ukiyo-e",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_japanese_minimalism",
+    "name_en": "Japanese Minimalism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_korean_editorial",
+    "name_en": "Korean Editorial",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_minhwa",
+    "name_en": "Minhwa",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_cyberpunk",
+    "name_en": "Cyberpunk",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_vaporwave",
+    "name_en": "Vaporwave",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_synthwave",
+    "name_en": "Synthwave",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_y2k",
+    "name_en": "Y2K",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_retro_futurism",
+    "name_en": "Retro Futurism",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_pixel_art",
+    "name_en": "Pixel Art",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_low_poly",
+    "name_en": "Low Poly",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_isometric",
+    "name_en": "Isometric",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_3d_clay",
+    "name_en": "3D Clay",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_3d_illustration",
+    "name_en": "3D Illustration",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_holographic",
+    "name_en": "Holographic",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_glitch_art",
+    "name_en": "Glitch Art",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_generative_art",
+    "name_en": "Generative Art",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_renaissance",
+    "name_en": "Renaissance",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_baroque",
+    "name_en": "Baroque",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_rococo",
+    "name_en": "Rococo",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_romanticism",
+    "name_en": "Romanticism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_impressionism",
+    "name_en": "Impressionism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_expressionism",
+    "name_en": "Expressionism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_surrealism",
+    "name_en": "Surrealism",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "rebuild_status": "FIRST_WAVE_COMPLETE",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_cubism",
+    "name_en": "Cubism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_futurism",
+    "name_en": "Futurism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_dadaism",
+    "name_en": "Dadaism",
+    "taxonomy": "ATTRIBUTE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_beardsley",
+    "name_en": "Beardsley-inspired",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_engraving",
+    "name_en": "Engraving",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_etching",
+    "name_en": "Etching",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_victorian",
+    "name_en": "Victorian Illustration",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_gothic",
+    "name_en": "Gothic",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_dark_romanticism",
+    "name_en": "Dark Romanticism",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_ornamental_line",
+    "name_en": "Ornamental Line Art",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_botanical",
+    "name_en": "Botanical Illustration",
+    "taxonomy": "VISUAL_TECHNIQUE",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_topographic",
+    "name_en": "Topographic",
+    "taxonomy": "THEME",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  },
+  {
+    "id": "art_aurora",
+    "name_en": "Aurora Gradient",
+    "taxonomy": "DIGITAL_AESTHETIC",
+    "rebuild_status": "RECLASSIFIED—DNA_REBUILD_PENDING",
+    "legacy_preview_status": "PLACEHOLDER_PREVIEW"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "id": "constructivism",
+  "name_en": "Constructivism",
+  "name_zh": "构成主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1915–1930",
+  "style_dna": {
+    "core": [
+      "diagonal tension",
+      "asymmetric scale contrast",
+      "intersecting planes and text",
+      "directional visual force"
+    ],
+    "secondary": [
+      "limited red/black/cream",
+      "photomontage crop"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "constructivism_h1",
+      "title": "MoMA — Constructivism term",
+      "source_url": "https://www.moma.org/collection/terms/constructivism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "constructivism_h2",
+      "title": "MoMA — Aleksei Gan, Konstruktivizm",
+      "source_url": "https://www.moma.org/collection/works/12867",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "constructivism_h3",
+      "title": "MoMA — Die Konstruktivisten poster",
+      "source_url": "https://www.moma.org/collection/works/6746",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/constructivism/previews/low.png",
+    "styles/constructivism/previews/medium.png",
+    "styles/constructivism/previews/high.png",
+    "styles/constructivism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+  "blind_visual_validation": {
+    "test_type": "8-way label-hidden visual discrimination",
+    "top_1_recognition": 100,
+    "top_3_recognition": 100,
+    "previews": [
+      {
+        "level": "low",
+        "style_fidelity": 81,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "medium",
+        "style_fidelity": 90,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "high",
+        "style_fidelity": 94,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      }
+    ],
+    "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+    "result": "PASS"
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID",
+    "VISUAL_RECOGNITION_VALID",
+    "USABILITY_VALID",
+    "STYLE_TRANSLATION_COMPLETE"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "constructivism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/constructivism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

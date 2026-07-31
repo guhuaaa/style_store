@@ -1,0 +1,28 @@
+:root {
+  --ui-ink: #2e2418;
+  --ui-paper: #f3ecd9;
+  --ui-surface: #fff9ea;
+  --ui-charcoal: #44331f;
+  --ui-graphite: #6b5d46;
+  --ui-muted: #8a7d63;
+  --ui-silver: #c7b996;
+  --ui-border: #c9b88b;
+  --ui-surface-muted: #ebe0c4;
+  --ui-gold: #ad7f2b;
+  --ui-sap: #40583b;
+  --ui-sage: #7f9274;
+  --ui-indigo: #435b64;
+  --ui-madder: #9d493c;
+  --ui-clay: #b46b3f;
+  --ui-weld: #c29a3c;
+  --ui-risk-critical: var(--ui-madder);
+  --ui-risk-high: var(--ui-clay);
+  --ui-risk-medium: var(--ui-weld);
+  --ui-risk-low: var(--ui-sap);
+
+  --rl-brand: var(--ui-ink);
+  --rl-brand-light: var(--ui-sap);
+  --rl-gold: var(--ui-gold);
+  --rl-risk: var(--ui-risk-critical);
+  --rl-safe: var(--ui-risk-low);
+}

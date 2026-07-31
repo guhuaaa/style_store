@@ -1,0 +1,29 @@
+[
+  {
+    "id": "mexican_muralism_h1",
+    "title": "MoMA — Mexican Muralism",
+    "source_url": "https://www.moma.org/collection/terms/mexican-muralism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "mexican_muralism_h2",
+    "title": "The Met — Mexican Muralism",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Mexican%20Muralism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "mexican_muralism_h3",
+    "title": "Museo Mural Diego Rivera",
+    "source_url": "https://www.inba.gob.mx/recinto/63/museo-mural-diego-rivera",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

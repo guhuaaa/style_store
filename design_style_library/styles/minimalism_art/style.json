@@ -1,0 +1,92 @@
+{
+  "id": "minimalism_art",
+  "name_en": "Minimalism",
+  "name_zh": "极简主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1960–1975",
+  "style_dna": {
+    "core": [
+      "serial modular reduction",
+      "literal material presence",
+      "neutral repeated unit",
+      "spatial interval as hierarchy"
+    ],
+    "secondary": [
+      "industrial neutral palette",
+      "absence of expressive decoration"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "minimalism_art_h1",
+      "title": "MoMA — Minimalism",
+      "source_url": "https://www.moma.org/collection/terms/minimalism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "minimalism_art_h2",
+      "title": "Tate — Minimalism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/m/minimalism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "minimalism_art_h3",
+      "title": "The Met — Minimalism",
+      "source_url": "https://www.metmuseum.org/toah/hd/minm/hd_minm.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/minimalism_art/previews/medium_chatgpt_rendered.png",
+    "styles/minimalism_art/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "ChatGPT web generated a local Playwright renderer from Style DNA/UI constraints; project-authored HTML/CSS/SVG was captured as a 1536x1024 frontend preview; no third-party image input or remote asset was used.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "serial modular reduction",
+      "literal material presence",
+      "neutral repeated unit"
+    ],
+    "veto": [
+      "Do not confuse with generic empty UI; use seriality, proportion, and deliberate intervals."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T10:31:43+08:00",
+      "prompt_id": "minimalism_art_medium_chatgpt_frontend_v1",
+      "renderer": "tools/render_third_wave_chatgpt_previews.cjs",
+      "output": "styles/minimalism_art/previews/medium_chatgpt_rendered.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "minimalism_art_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/minimalism_art/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bauhaus_h1",
+    "title": "MoMA — Moholy-Nagy, Konstruktionen",
+    "source_url": "https://www.moma.org/collection/works/68722",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "bauhaus_h2",
+    "title": "Bauhaus Dessau Foundation — Bauhaus history",
+    "source_url": "https://www.bauhaus-dessau.de/en/geschichte.html",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "bauhaus_h3",
+    "title": "The Met — Bauhaus essay",
+    "source_url": "https://www.metmuseum.org/toah/hd/bauh/hd_bauh.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

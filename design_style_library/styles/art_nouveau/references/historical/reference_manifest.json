@@ -1,0 +1,29 @@
+[
+  {
+    "id": "art_nouveau_h1",
+    "title": "The Met — Art Nouveau overview",
+    "source_url": "https://www.metmuseum.org/toah/hd/artn/hd_artn.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "art_nouveau_h2",
+    "title": "The Met — Mucha decorative panel study",
+    "source_url": "https://www.metmuseum.org/art/collection/search/283253",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "art_nouveau_h3",
+    "title": "The Met — Loie Fuller Dancing",
+    "source_url": "https://www.metmuseum.org/art/collection/search/287807",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

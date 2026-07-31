@@ -1,0 +1,116 @@
+{
+  "id": "ukiyo_e",
+  "name_en": "Ukiyo-e",
+  "name_zh": "浮世绘",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1670–1900",
+  "style_dna": {
+    "core": [
+      "flat color planes",
+      "cropped viewpoint",
+      "directional wave or contour rhythm",
+      "asymmetric negative space"
+    ],
+    "secondary": [
+      "indigo-led limited palette",
+      "woodblock line and pattern"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "ukiyo_e_h1",
+      "title": "The Met — Ukiyo-e essay",
+      "source_url": "https://www.metmuseum.org/toah/hd/ukiy/hd_ukiy.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "ukiyo_e_h2",
+      "title": "The Met — Hokusai, Great Wave",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "ukiyo_e_h3",
+      "title": "Library of Congress — Japanese woodblock prints",
+      "source_url": "https://www.loc.gov/collections/japanese-fine-prints-pre-1915/about-this-collection/",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/ukiyo_e/previews/low.png",
+    "styles/ukiyo_e/previews/medium.png",
+    "styles/ukiyo_e/previews/high.png",
+    "styles/ukiyo_e/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+  "blind_visual_validation": {
+    "test_type": "8-way label-hidden visual discrimination",
+    "top_1_recognition": 100,
+    "top_3_recognition": 100,
+    "previews": [
+      {
+        "level": "low",
+        "style_fidelity": 82,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "medium",
+        "style_fidelity": 90,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "high",
+        "style_fidelity": 93,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      }
+    ],
+    "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+    "result": "PASS"
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID",
+    "VISUAL_RECOGNITION_VALID",
+    "USABILITY_VALID",
+    "STYLE_TRANSLATION_COMPLETE"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "ukiyo_e_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/ukiyo_e/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

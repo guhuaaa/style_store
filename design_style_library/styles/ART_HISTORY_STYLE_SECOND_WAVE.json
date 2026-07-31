@@ -1,0 +1,92 @@
+{
+  "wave": 2,
+  "count": 12,
+  "created_at": "2026-07-28T13:32:52+08:00",
+  "policy": "Local design research and visual analysis only; never publish as owned commercial asset.",
+  "styles": [
+    {
+      "id": "renaissance",
+      "name_en": "Renaissance",
+      "name_zh": "文艺复兴",
+      "path": "styles/renaissance",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "baroque",
+      "name_en": "Baroque",
+      "name_zh": "巴洛克",
+      "path": "styles/baroque",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "rococo",
+      "name_en": "Rococo",
+      "name_zh": "洛可可",
+      "path": "styles/rococo",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "neoclassicism",
+      "name_en": "Neoclassicism",
+      "name_zh": "新古典主义",
+      "path": "styles/neoclassicism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "romanticism",
+      "name_en": "Romanticism",
+      "name_zh": "浪漫主义",
+      "path": "styles/romanticism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "impressionism",
+      "name_en": "Impressionism",
+      "name_zh": "印象派",
+      "path": "styles/impressionism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "post_impressionism",
+      "name_en": "Post-Impressionism",
+      "name_zh": "后印象派",
+      "path": "styles/post_impressionism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "expressionism",
+      "name_en": "Expressionism",
+      "name_zh": "表现主义",
+      "path": "styles/expressionism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "cubism",
+      "name_en": "Cubism",
+      "name_zh": "立体主义",
+      "path": "styles/cubism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "futurism",
+      "name_en": "Futurism",
+      "name_zh": "未来主义",
+      "path": "styles/futurism",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "dada",
+      "name_en": "Dada",
+      "name_zh": "达达主义",
+      "path": "styles/dada",
+      "preview_status": "GENERATION_PENDING"
+    },
+    {
+      "id": "suprematism",
+      "name_en": "Suprematism",
+      "name_zh": "至上主义",
+      "path": "styles/suprematism",
+      "preview_status": "GENERATION_PENDING"
+    }
+  ]
+}

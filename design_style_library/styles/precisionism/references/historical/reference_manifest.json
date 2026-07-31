@@ -1,0 +1,29 @@
+[
+  {
+    "id": "precisionism_h1",
+    "title": "The Met — Precisionism",
+    "source_url": "https://www.metmuseum.org/toah/hd/preci/hd_preci.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "precisionism_h2",
+    "title": "Whitney Museum — Precisionism",
+    "source_url": "https://whitney.org/artists/1236",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "precisionism_h3",
+    "title": "Smithsonian American Art Museum — Precisionism",
+    "source_url": "https://americanart.si.edu/artwork/search?keyword=Precisionism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

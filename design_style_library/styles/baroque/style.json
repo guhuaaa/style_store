@@ -1,0 +1,84 @@
+{
+  "id": "baroque",
+  "name_en": "Baroque",
+  "name_zh": "巴洛克",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1600–1750",
+  "style_dna": {
+    "core": [
+      "theatrical light–dark contrast",
+      "diagonal movement through depth",
+      "volumetric focal drama",
+      "layered spatial recession"
+    ],
+    "secondary": [
+      "deep umber with luminous highlights",
+      "controlled ornamental tension"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PARTIAL_AI_GENERATION—PROVENANCE_RECORDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "baroque_h1",
+      "title": "The Met — Baroque art overview",
+      "source_url": "https://www.metmuseum.org/toah/hd/baro/hd_baro.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "baroque_h2",
+      "title": "The Met — European paintings collection",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?department=11",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "baroque_h3",
+      "title": "National Gallery — Baroque",
+      "source_url": "https://www.nationalgallery.org.uk/paintings/learn-about-art/baroque-art",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/baroque/previews/low_rendered.png",
+    "styles/baroque/previews/medium_rendered.png",
+    "styles/baroque/previews/high_rendered.png",
+    "styles/baroque/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Pending: short DNA prompt; single style and single intensity; generated image will be copied and provenance recorded.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "theatrical light–dark contrast",
+      "diagonal movement through depth",
+      "volumetric focal drama"
+    ],
+    "veto": [
+      "Do not reduce to gold trim, black backgrounds, or luxury-dashboard decoration."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "baroque_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/baroque/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

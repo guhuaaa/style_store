@@ -1,0 +1,84 @@
+{
+  "id": "rococo",
+  "name_en": "Rococo",
+  "name_zh": "洛可可",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1730–1770",
+  "style_dna": {
+    "core": [
+      "airy asymmetrical balance",
+      "shell-like curvilinear rhythm",
+      "delicate ornamental flow",
+      "lightness around the focal content"
+    ],
+    "secondary": [
+      "powdered pastel relationships",
+      "fine, low-contrast detail"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PARTIAL_AI_GENERATION—PROVENANCE_RECORDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "rococo_h1",
+      "title": "The Met — Rococo art overview",
+      "source_url": "https://www.metmuseum.org/toah/hd/roco/hd_roco.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "rococo_h2",
+      "title": "The Met — European decorative arts",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?department=12",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "rococo_h3",
+      "title": "V&A — Rococo",
+      "source_url": "https://www.vam.ac.uk/articles/rococo-style",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/rococo/previews/low_rendered.png",
+    "styles/rococo/previews/medium_rendered.png",
+    "styles/rococo/previews/high_rendered.png",
+    "styles/rococo/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Pending: short DNA prompt; single style and single intensity; generated image will be copied and provenance recorded.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "airy asymmetrical balance",
+      "shell-like curvilinear rhythm",
+      "delicate ornamental flow"
+    ],
+    "veto": [
+      "Do not reduce to pink gradients, generic florals, or decorative excess that harms reading."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "rococo_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/rococo/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

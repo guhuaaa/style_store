@@ -1,0 +1,123 @@
+{
+  "id": "pop_art",
+  "name_en": "Pop Art",
+  "name_zh": "波普艺术",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1950s–1970s",
+  "style_dna": {
+    "core": [
+      "commercial-image language",
+      "high-key contrast",
+      "repetition as rhythm",
+      "scale jump and crop"
+    ],
+    "secondary": [
+      "halftone field",
+      "speech-bubble framing"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PAIRWISE_REGEN_REQUIRED—CURRENT_MEDIUM_CONFOUNDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "pop_art_h1",
+      "title": "MoMA — Pop Art term",
+      "source_url": "https://www.moma.org/collection/terms/pop-art",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "pop_art_h2",
+      "title": "MoMA — Andy Warhol collection",
+      "source_url": "https://www.moma.org/artists/6246",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "pop_art_h3",
+      "title": "The Met — Pop Art essay",
+      "source_url": "https://www.metmuseum.org/toah/hd/pop/hd_pop.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/pop_art/previews/low.png",
+    "styles/pop_art/previews/medium.png",
+    "styles/pop_art/previews/high.png",
+    "styles/pop_art/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+  "blind_visual_validation": {
+    "test_type": "8-way label-hidden visual discrimination",
+    "top_1_recognition": 100,
+    "top_3_recognition": 100,
+    "previews": [
+      {
+        "level": "low",
+        "style_fidelity": 84,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "medium",
+        "style_fidelity": 92,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "high",
+        "style_fidelity": 95,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      }
+    ],
+    "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+    "result": "PASS"
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID",
+    "USABILITY_VALID"
+  ],
+  "pairwise_differentiation": {
+    "nearest_neighbors": [
+      "bauhaus",
+      "de_stijl"
+    ],
+    "required_signature": "thick comic contour; Ben-Day field; crop/scale jump; repeated commercial-symbol rhythm",
+    "veto": "clean geometric primary-color grid, restrained functional palette, Mondrian-like composition",
+    "status": "FAIL—REGENERATE_WITH_GUARDRAILS"
+  },
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "pop_art_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/pop_art/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

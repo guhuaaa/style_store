@@ -1,0 +1,29 @@
+[
+  {
+    "id": "orphism_h1",
+    "title": "Guggenheim — Orphism",
+    "source_url": "https://www.guggenheim.org/artwork/movement/orphism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "orphism_h2",
+    "title": "The Met — Robert Delaunay",
+    "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Robert%20Delaunay",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "orphism_h3",
+    "title": "Tate — Sonia Delaunay",
+    "source_url": "https://www.tate.org.uk/art/artists/sonia-delaunay-921",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "id": "post_impressionism",
+  "name_en": "Post-Impressionism",
+  "name_zh": "后印象派",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1886–1905",
+  "style_dna": {
+    "core": [
+      "constructed color masses",
+      "expressive contour or faceting",
+      "deliberate flattening of depth",
+      "rhythmic color-led grouping"
+    ],
+    "secondary": [
+      "saturated but organized color",
+      "structural brush-like segmentation"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "PARTIAL_AI_GENERATION—PROVENANCE_RECORDED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "post_impressionism_h1",
+      "title": "The Met — Post-Impressionism overview",
+      "source_url": "https://www.metmuseum.org/toah/hd/poim/hd_poim.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "post_impressionism_h2",
+      "title": "The Met — Post-Impressionism collection search",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Post-Impressionism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "post_impressionism_h3",
+      "title": "Tate — Post-Impressionism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/p/post-impressionism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-28T13:32:52+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/post_impressionism/previews/low_rendered.png",
+    "styles/post_impressionism/previews/medium_rendered.png",
+    "styles/post_impressionism/previews/high_rendered.png",
+    "styles/post_impressionism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Pending: short DNA prompt; single style and single intensity; generated image will be copied and provenance recorded.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "constructed color masses",
+      "expressive contour or faceting",
+      "deliberate flattening of depth"
+    ],
+    "veto": [
+      "Do not reduce to an arbitrary bright palette or generic painterly noise."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "post_impressionism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/post_impressionism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

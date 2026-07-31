@@ -1,0 +1,29 @@
+[
+  {
+    "id": "abstract_expressionism_h1",
+    "title": "MoMA — Abstract Expressionism",
+    "source_url": "https://www.moma.org/collection/terms/abstract-expressionism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "abstract_expressionism_h2",
+    "title": "The Met — Abstract Expressionism",
+    "source_url": "https://www.metmuseum.org/toah/hd/abex/hd_abex.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "abstract_expressionism_h3",
+    "title": "Tate — Abstract Expressionism",
+    "source_url": "https://www.tate.org.uk/art/art-terms/a/abstract-expressionism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-29T10:37:46+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

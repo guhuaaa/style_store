@@ -1,0 +1,855 @@
+[
+  {
+    "id": "art_deco",
+    "name_en": "Art Deco",
+    "name_zh": "装饰艺术",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1910–1939",
+    "style_dna": {
+      "core": [
+        "axial symmetry",
+        "stepped geometric massing",
+        "sunburst and fan rhythm",
+        "luxury linear framing"
+      ],
+      "secondary": [
+        "black/gold/cream contrast",
+        "vertical emphasis"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "art_deco_h1",
+        "title": "The Met — Decorative Arts of the Twentieth Century",
+        "source_url": "https://resources.metmuseum.org/resources/metpublications/pdf/Decorative_Arts_of_the_Twentieth_Century_The_Metropolitan_Museum_of_Art_Bulletin_v_37_no_3_Winter_1979_1980.pdf",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "art_deco_h2",
+        "title": "The Met — Heilbrunn Art Deco essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/artd/hd_artd.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "art_deco_h3",
+        "title": "Victoria and Albert Museum — Art Deco",
+        "source_url": "https://www.vam.ac.uk/articles/art-deco-an-introduction",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/art_deco/previews/low.png",
+      "styles/art_deco/previews/medium.png",
+      "styles/art_deco/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 82,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 91,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 95,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "VISUAL_RECOGNITION_VALID",
+      "USABILITY_VALID",
+      "STYLE_TRANSLATION_COMPLETE"
+    ]
+  },
+  {
+    "id": "art_nouveau",
+    "name_en": "Art Nouveau",
+    "name_zh": "新艺术",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1890–1910",
+    "style_dna": {
+      "core": [
+        "organic continuous curve",
+        "botanical structural motif",
+        "integrated decorative frame",
+        "asymmetrical composition"
+      ],
+      "secondary": [
+        "restrained natural palette",
+        "flat printed illustration"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "art_nouveau_h1",
+        "title": "The Met — Art Nouveau overview",
+        "source_url": "https://www.metmuseum.org/toah/hd/artn/hd_artn.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "art_nouveau_h2",
+        "title": "The Met — Mucha decorative panel study",
+        "source_url": "https://www.metmuseum.org/art/collection/search/283253",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "art_nouveau_h3",
+        "title": "The Met — Loie Fuller Dancing",
+        "source_url": "https://www.metmuseum.org/art/collection/search/287807",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/art_nouveau/previews/low.png",
+      "styles/art_nouveau/previews/medium.png",
+      "styles/art_nouveau/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 84,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 90,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 94,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "VISUAL_RECOGNITION_VALID",
+      "USABILITY_VALID",
+      "STYLE_TRANSLATION_COMPLETE"
+    ]
+  },
+  {
+    "id": "bauhaus",
+    "name_en": "Bauhaus",
+    "name_zh": "包豪斯",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "1919–1933",
+    "style_dna": {
+      "core": [
+        "functional geometry",
+        "asymmetric grid",
+        "shape-based information hierarchy",
+        "limited primary color as function"
+      ],
+      "secondary": [
+        "sans-serif hierarchy",
+        "industrial surface"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "PAIRWISE_REGEN_REQUIRED—CURRENT_MEDIUM_CONFOUNDED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "bauhaus_h1",
+        "title": "MoMA — Moholy-Nagy, Konstruktionen",
+        "source_url": "https://www.moma.org/collection/works/68722",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "bauhaus_h2",
+        "title": "Bauhaus Dessau Foundation — Bauhaus history",
+        "source_url": "https://www.bauhaus-dessau.de/en/geschichte.html",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "bauhaus_h3",
+        "title": "The Met — Bauhaus essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/bauh/hd_bauh.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/bauhaus/previews/low.png",
+      "styles/bauhaus/previews/medium.png",
+      "styles/bauhaus/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 85,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 92,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 94,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "USABILITY_VALID"
+    ],
+    "pairwise_differentiation": {
+      "nearest_neighbors": [
+        "de_stijl",
+        "pop_art"
+      ],
+      "required_signature": "functional asymmetry; circles plus directional geometry; color tied to task role",
+      "veto": "Mondrian-like full black grid, regular all-rectangle pane matrix, halftone/comic contour",
+      "status": "FAIL—REGENERATE_WITH_GUARDRAILS"
+    }
+  },
+  {
+    "id": "constructivism",
+    "name_en": "Constructivism",
+    "name_zh": "构成主义",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1915–1930",
+    "style_dna": {
+      "core": [
+        "diagonal tension",
+        "asymmetric scale contrast",
+        "intersecting planes and text",
+        "directional visual force"
+      ],
+      "secondary": [
+        "limited red/black/cream",
+        "photomontage crop"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "constructivism_h1",
+        "title": "MoMA — Constructivism term",
+        "source_url": "https://www.moma.org/collection/terms/constructivism",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "constructivism_h2",
+        "title": "MoMA — Aleksei Gan, Konstruktivizm",
+        "source_url": "https://www.moma.org/collection/works/12867",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "constructivism_h3",
+        "title": "MoMA — Die Konstruktivisten poster",
+        "source_url": "https://www.moma.org/collection/works/6746",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/constructivism/previews/low.png",
+      "styles/constructivism/previews/medium.png",
+      "styles/constructivism/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 81,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 90,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 94,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "VISUAL_RECOGNITION_VALID",
+      "USABILITY_VALID",
+      "STYLE_TRANSLATION_COMPLETE"
+    ]
+  },
+  {
+    "id": "de_stijl",
+    "name_en": "De Stijl",
+    "name_zh": "风格派",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "1917–1931",
+    "style_dna": {
+      "core": [
+        "orthogonal grid",
+        "asymmetry through proportion",
+        "rectilinear planes",
+        "primary-color structural accents"
+      ],
+      "secondary": [
+        "black structural lines",
+        "white spatial field"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "PAIRWISE_REGEN_REQUIRED—CURRENT_MEDIUM_CONFOUNDED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "de_stijl_h1",
+        "title": "MoMA — De Stijl term",
+        "source_url": "https://www.moma.org/collection/terms/de-stijl",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "de_stijl_h2",
+        "title": "MoMA — Piet Mondrian collection",
+        "source_url": "https://www.moma.org/artists/4057",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "de_stijl_h3",
+        "title": "The Met — De Stijl essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/stij/hd_stij.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/de_stijl/previews/low.png",
+      "styles/de_stijl/previews/medium.png",
+      "styles/de_stijl/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 84,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 91,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 95,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "USABILITY_VALID"
+    ],
+    "pairwise_differentiation": {
+      "nearest_neighbors": [
+        "bauhaus",
+        "pop_art"
+      ],
+      "required_signature": "orthogonal black-rule order; large white voids; sparse primary rectangles; proportional asymmetry",
+      "veto": "circles, diagonal axes, gradients, dense multi-color charts, comic panels",
+      "status": "FAIL—REGENERATE_WITH_GUARDRAILS"
+    }
+  },
+  {
+    "id": "pop_art",
+    "name_en": "Pop Art",
+    "name_zh": "波普艺术",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1950s–1970s",
+    "style_dna": {
+      "core": [
+        "commercial-image language",
+        "high-key contrast",
+        "repetition as rhythm",
+        "scale jump and crop"
+      ],
+      "secondary": [
+        "halftone field",
+        "speech-bubble framing"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "PAIRWISE_REGEN_REQUIRED—CURRENT_MEDIUM_CONFOUNDED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "pop_art_h1",
+        "title": "MoMA — Pop Art term",
+        "source_url": "https://www.moma.org/collection/terms/pop-art",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "pop_art_h2",
+        "title": "MoMA — Andy Warhol collection",
+        "source_url": "https://www.moma.org/artists/6246",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "pop_art_h3",
+        "title": "The Met — Pop Art essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/pop/hd_pop.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/pop_art/previews/low.png",
+      "styles/pop_art/previews/medium.png",
+      "styles/pop_art/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 84,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 92,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 95,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "USABILITY_VALID"
+    ],
+    "pairwise_differentiation": {
+      "nearest_neighbors": [
+        "bauhaus",
+        "de_stijl"
+      ],
+      "required_signature": "thick comic contour; Ben-Day field; crop/scale jump; repeated commercial-symbol rhythm",
+      "veto": "clean geometric primary-color grid, restrained functional palette, Mondrian-like composition",
+      "status": "FAIL—REGENERATE_WITH_GUARDRAILS"
+    }
+  },
+  {
+    "id": "surrealism",
+    "name_en": "Surrealism",
+    "name_zh": "超现实主义",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1924–1966",
+    "style_dna": {
+      "core": [
+        "unexpected scale shift",
+        "dreamlike spatial discontinuity",
+        "impossible juxtaposition",
+        "symbolic image logic"
+      ],
+      "secondary": [
+        "precise rendered object",
+        "quiet empty field"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "surrealism_h1",
+        "title": "MoMA — Surrealism term",
+        "source_url": "https://www.moma.org/collection/terms/surrealism",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "surrealism_h2",
+        "title": "The Met — Surrealism essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/surr/hd_surr.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "surrealism_h3",
+        "title": "MoMA — René Magritte collection",
+        "source_url": "https://www.moma.org/artists/3692",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/surrealism/previews/low.png",
+      "styles/surrealism/previews/medium.png",
+      "styles/surrealism/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 80,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 88,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 92,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "VISUAL_RECOGNITION_VALID",
+      "USABILITY_VALID",
+      "STYLE_TRANSLATION_COMPLETE"
+    ]
+  },
+  {
+    "id": "ukiyo_e",
+    "name_en": "Ukiyo-e",
+    "name_zh": "浮世绘",
+    "taxonomy": "ART_HISTORY_STYLE",
+    "historical_period": "c. 1670–1900",
+    "style_dna": {
+      "core": [
+        "flat color planes",
+        "cropped viewpoint",
+        "directional wave or contour rhythm",
+        "asymmetric negative space"
+      ],
+      "secondary": [
+        "indigo-led limited palette",
+        "woodblock line and pattern"
+      ]
+    },
+    "ui_translation_status": "DRAFT_STRUCTURED",
+    "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+    "placeholder_preview": false,
+    "references": [
+      {
+        "id": "ukiyo_e_h1",
+        "title": "The Met — Ukiyo-e essay",
+        "source_url": "https://www.metmuseum.org/toah/hd/ukiy/hd_ukiy.htm",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "ukiyo_e_h2",
+        "title": "The Met — Hokusai, Great Wave",
+        "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      },
+      {
+        "id": "ukiyo_e_h3",
+        "title": "Library of Congress — Japanese woodblock prints",
+        "source_url": "https://www.loc.gov/collections/japanese-fine-prints-pre-1915/about-this-collection/",
+        "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+        "captured_at": "2026-07-27T14:09:35+08:00",
+        "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+        "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+      }
+    ],
+    "previews": [
+      "styles/ukiyo_e/previews/low.png",
+      "styles/ukiyo_e/previews/medium.png",
+      "styles/ukiyo_e/previews/high.png"
+    ],
+    "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+    "blind_visual_validation": {
+      "test_type": "8-way label-hidden visual discrimination",
+      "top_1_recognition": 100,
+      "top_3_recognition": 100,
+      "previews": [
+        {
+          "level": "low",
+          "style_fidelity": 82,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "medium",
+          "style_fidelity": 90,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        },
+        {
+          "level": "high",
+          "style_fidelity": 93,
+          "dimensions": [
+            1586,
+            992
+          ],
+          "surface_mimicry_penalty": 0,
+          "result": "PASS"
+        }
+      ],
+      "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+      "result": "PASS"
+    },
+    "completion_flags": [
+      "STYLE_REFERENCE_VALID",
+      "STYLE_DNA_VALID",
+      "UI_TRANSLATION_VALID",
+      "VISUAL_RECOGNITION_VALID",
+      "USABILITY_VALID",
+      "STYLE_TRANSLATION_COMPLETE"
+    ]
+  }
+]

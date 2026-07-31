@@ -1,0 +1,842 @@
+{
+  "01_minimalism_and_swiss_style.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Minimalism & Swiss Style",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:45.939Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "02_neumorphism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Neumorphism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:46.185Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "03_glassmorphism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Glassmorphism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:46.553Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "04_brutalism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Brutalism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:46.652Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "05_3d_and_hyperrealism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "3D & Hyperrealism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:46.841Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "06_vibrant_and_block_based.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Vibrant & Block-based",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:46.914Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "07_dark_mode_oled.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Dark Mode (OLED)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.009Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "08_accessible_and_ethical.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Accessible & Ethical",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.088Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "09_claymorphism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Claymorphism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.174Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "10_aurora_ui.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Aurora UI",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.251Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "11_retro_futurism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Retro-Futurism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.336Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "12_flat_design.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Flat Design",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.421Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "13_skeuomorphism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Skeuomorphism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.495Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "14_liquid_glass.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Liquid Glass",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.620Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "15_motion_driven.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Motion-Driven",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.696Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "16_micro_interactions.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Micro-interactions",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.775Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "17_inclusive_design.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Inclusive Design",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.838Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "18_zero_interface.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Zero Interface",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.893Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "19_soft_ui_evolution.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Soft UI Evolution",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:47.966Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "20_hero_centric_design.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Hero-Centric Design",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.030Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "21_conversion_optimized.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Conversion-Optimized",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.091Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "22_feature_rich_showcase.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Feature-Rich Showcase",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.172Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "23_minimal_and_direct.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Minimal & Direct",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.226Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "24_social_proof_focused.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Social Proof-Focused",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.289Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "25_interactive_product_demo.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Interactive Product Demo",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.354Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "26_trust_and_authority.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Trust & Authority",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.409Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "27_storytelling_driven.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Storytelling-Driven",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.472Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "28_data_dense_dashboard.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Data-Dense Dashboard",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.530Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "29_heat_map_and_heatmap_style.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Heat Map & Heatmap Style",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.614Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "30_executive_dashboard.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Executive Dashboard",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.670Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "31_real_time_monitoring.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Real-Time Monitoring",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.739Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "32_drill_down_analytics.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Drill-Down Analytics",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.800Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "33_comparative_analysis_dashboard.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Comparative Analysis Dashboard",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.864Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "34_predictive_analytics.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Predictive Analytics",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.928Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "35_user_behavior_analytics.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "User Behavior Analytics",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:48.991Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "36_financial_dashboard.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Financial Dashboard",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.062Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "37_sales_intelligence_dashboard.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Sales Intelligence Dashboard",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.118Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "38_neubrutalism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Neubrutalism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.178Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "39_bento_box_grid.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Bento Box Grid",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.239Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "40_y2k_aesthetic.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Y2K Aesthetic",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.314Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "41_cyberpunk_ui.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Cyberpunk UI",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.380Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "42_organic_biophilic.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Organic Biophilic",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.524Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "43_ai_native_ui.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "AI-Native UI",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.579Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "44_memphis_design.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Memphis Design",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.650Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "45_vaporwave.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Vaporwave",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.724Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "46_dimensional_layering.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Dimensional Layering",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.803Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "47_exaggerated_minimalism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Exaggerated Minimalism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.863Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "48_kinetic_typography.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Kinetic Typography",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:49.944Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "49_parallax_storytelling.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Parallax Storytelling",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.004Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "50_swiss_modernism_2_0.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Swiss Modernism 2.0",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.060Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "51_hud_sci_fi_fui.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "HUD / Sci-Fi FUI",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.131Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "52_pixel_art.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Pixel Art",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.218Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "53_bento_grids.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Bento Grids",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.295Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "55_spatial_ui_visionos.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Spatial UI (VisionOS)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.426Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "56_e_ink_paper.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "E-Ink / Paper",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.485Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "57_gen_z_chaos_maximalism.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Gen Z Chaos / Maximalism",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.558Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "58_biomimetic_organic_2_0.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Biomimetic / Organic 2.0",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.630Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "59_anti_polish_raw_aesthetic.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Anti-Polish / Raw Aesthetic",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.689Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "60_tactile_digital_deformable_ui.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Tactile Digital / Deformable UI",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.763Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "61_nature_distilled.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Nature Distilled",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.839Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "62_interactive_cursor_design.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Interactive Cursor Design",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.899Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "63_voice_first_multimodal.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Voice-First Multimodal",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:50.968Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "64_3d_product_preview.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "3D Product Preview",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.051Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "65_gradient_mesh_aurora_evolved.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Gradient Mesh / Aurora Evolved",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.118Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "66_editorial_grid_magazine.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Editorial Grid / Magazine",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.178Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "67_chromatic_aberration_rgb_split.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Chromatic Aberration / RGB Split",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.244Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "68_vintage_analog_retro_film.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Vintage Analog / Retro Film",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.310Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "69_bauhaus.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Bauhaus (包豪斯)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.420Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "70_minimalist_monochrome.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Minimalist Monochrome",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.483Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "71_modern_dark_cinema_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Modern Dark (Cinema Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.572Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "72_saas_mobile_high_tech_boutique.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "SaaS Mobile (High-Tech Boutique)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.703Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "73_terminal_cli_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Terminal CLI (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.773Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "74_kinetic_brutalism_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Kinetic Brutalism (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.841Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "75_flat_design_mobile_touch_first.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Flat Design Mobile (Touch-First)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:51.916Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "76_material_you_md3_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Material You (MD3 Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.041Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "77_neo_brutalism_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Neo Brutalism (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.102Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "78_bold_typography_mobile_poster.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Bold Typography (Mobile Poster)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.166Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "79_academia_scholarly_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Academia (Scholarly Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.245Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "80_cyberpunk_mobile_hud.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Cyberpunk Mobile HUD",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.308Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "81_bitcoin_defi_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Bitcoin DeFi (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.430Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "82_claymorphism_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Claymorphism (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.519Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "83_enterprise_saas_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Enterprise SaaS (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.572Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "84_sketch_hand_drawn_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Sketch Hand-Drawn (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.637Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  },
+  "85_neumorphism_mobile.png": {
+    "type": "PROJECT_ORIGINAL_RENDER",
+    "source_type": "UI_UX_PRO_MAX_STYLE_RULES",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_file": "third_party/ui-ux-pro-max-skill/src/ui-ux-pro-max/data/styles.csv",
+    "style_name": "Neumorphism (Mobile)",
+    "source_license": "MIT",
+    "captured_at": "2026-07-29T01:49:52.713Z",
+    "usage_scope": "Local design research and visual reference; generated preview is project-authored HTML/CSS render."
+  }
+}

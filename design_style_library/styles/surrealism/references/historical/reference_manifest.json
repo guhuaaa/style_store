@@ -1,0 +1,29 @@
+[
+  {
+    "id": "surrealism_h1",
+    "title": "MoMA — Surrealism term",
+    "source_url": "https://www.moma.org/collection/terms/surrealism",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "surrealism_h2",
+    "title": "The Met — Surrealism essay",
+    "source_url": "https://www.metmuseum.org/toah/hd/surr/hd_surr.htm",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  },
+  {
+    "id": "surrealism_h3",
+    "title": "MoMA — René Magritte collection",
+    "source_url": "https://www.moma.org/artists/3692",
+    "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+    "captured_at": "2026-07-27T14:09:35+08:00",
+    "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+    "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+  }
+]

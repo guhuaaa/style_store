@@ -1,0 +1,92 @@
+{
+  "id": "op_art",
+  "name_en": "Op Art",
+  "name_zh": "欧普艺术",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1960–1975",
+  "style_dna": {
+    "core": [
+      "perceptual rhythm",
+      "systematic repetition with controlled variation",
+      "figure-ground reversal",
+      "optical directional pull"
+    ],
+    "secondary": [
+      "high contrast pattern",
+      "strict calibrated spacing"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "op_art_h1",
+      "title": "Tate — Op Art",
+      "source_url": "https://www.tate.org.uk/art/art-terms/o/op-art",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "op_art_h2",
+      "title": "MoMA — Op Art",
+      "source_url": "https://www.moma.org/collection/terms/op-art",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "op_art_h3",
+      "title": "The Met — Optical Art",
+      "source_url": "https://www.metmuseum.org/art/collection/search#!?q=Op%20Art",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/op_art/previews/medium_chatgpt_rendered.png",
+    "styles/op_art/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "ChatGPT web generated a local Playwright renderer from Style DNA/UI constraints; project-authored HTML/CSS/SVG was captured as a 1536x1024 frontend preview; no third-party image input or remote asset was used.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "perceptual rhythm",
+      "systematic repetition with controlled variation",
+      "figure-ground reversal"
+    ],
+    "veto": [
+      "Do not create eye-straining wallpaper; apply optical rhythm in bounded, accessible data regions only."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T10:31:43+08:00",
+      "prompt_id": "op_art_medium_chatgpt_frontend_v1",
+      "renderer": "tools/render_third_wave_chatgpt_previews.cjs",
+      "output": "styles/op_art/previews/medium_chatgpt_rendered.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "op_art_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/op_art/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

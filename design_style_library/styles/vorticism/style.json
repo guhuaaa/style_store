@@ -1,0 +1,92 @@
+{
+  "id": "vorticism",
+  "name_en": "Vorticism",
+  "name_zh": "漩涡主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1914–1919",
+  "style_dna": {
+    "core": [
+      "centripetal angular force",
+      "hard-edged machine geometry",
+      "compressed black-white contrast",
+      "vortex-like directional hierarchy"
+    ],
+    "secondary": [
+      "single acid accent",
+      "cut typographic mass"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "CHATGPT_WEB_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "vorticism_h1",
+      "title": "Tate — Vorticism",
+      "source_url": "https://www.tate.org.uk/art/art-terms/v/vorticism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "vorticism_h2",
+      "title": "Tate — Vorticism collection",
+      "source_url": "https://www.tate.org.uk/art/artists/wyndham-lewis-1504",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "vorticism_h3",
+      "title": "The British Library — BLAST",
+      "source_url": "https://www.bl.uk/collection-items/blast",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-29T10:37:46+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY — image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/vorticism/previews/medium_chatgpt_rendered.png",
+    "styles/vorticism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "ChatGPT web generated a local Playwright renderer from Style DNA/UI constraints; project-authored HTML/CSS/SVG was captured as a 1536x1024 frontend preview; no third-party image input or remote asset was used.",
+  "pairwise_differentiation": {
+    "required_signature": [
+      "centripetal angular force",
+      "hard-edged machine geometry",
+      "compressed black-white contrast"
+    ],
+    "veto": [
+      "Do not confuse with Futurism or Constructivism: avoid speed trails and propaganda-poster composition."
+    ]
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID"
+  ],
+  "generation_attempts": [
+    {
+      "level": "medium",
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T10:31:43+08:00",
+      "prompt_id": "vorticism_medium_chatgpt_frontend_v1",
+      "renderer": "tools/render_third_wave_chatgpt_previews.cjs",
+      "output": "styles/vorticism/previews/medium_chatgpt_rendered.png"
+    }
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "vorticism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/vorticism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}

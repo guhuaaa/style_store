@@ -1,0 +1,116 @@
+{
+  "id": "surrealism",
+  "name_en": "Surrealism",
+  "name_zh": "超现实主义",
+  "taxonomy": "ART_HISTORY_STYLE",
+  "historical_period": "c. 1924–1966",
+  "style_dna": {
+    "core": [
+      "unexpected scale shift",
+      "dreamlike spatial discontinuity",
+      "impossible juxtaposition",
+      "symbolic image logic"
+    ],
+    "secondary": [
+      "precise rendered object",
+      "quiet empty field"
+    ]
+  },
+  "ui_translation_status": "DRAFT_STRUCTURED",
+  "preview_status": "AI_GENERATED—PROVENANCE_RECORDED—BLIND_TEST_REQUIRED",
+  "placeholder_preview": false,
+  "references": [
+    {
+      "id": "surrealism_h1",
+      "title": "MoMA — Surrealism term",
+      "source_url": "https://www.moma.org/collection/terms/surrealism",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "surrealism_h2",
+      "title": "The Met — Surrealism essay",
+      "source_url": "https://www.metmuseum.org/toah/hd/surr/hd_surr.htm",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    },
+    {
+      "id": "surrealism_h3",
+      "title": "MoMA — René Magritte collection",
+      "source_url": "https://www.moma.org/artists/3692",
+      "source_type": "MUSEUM_OR_INSTITUTION_PAGE",
+      "captured_at": "2026-07-27T14:09:35+08:00",
+      "license_status": "REFERENCE_PAGE_ONLY—image license must be checked before download",
+      "usage_scope": "Local design research and visual analysis only; never publish as owned commercial asset."
+    }
+  ],
+  "previews": [
+    "styles/surrealism/previews/low.png",
+    "styles/surrealism/previews/medium.png",
+    "styles/surrealism/previews/high.png",
+    "styles/surrealism/previews/overview_chatgpt_rendered.png"
+  ],
+  "generation_method": "Short DNA prompt; single style and single intensity; copied into project immediately after successful generation.",
+  "blind_visual_validation": {
+    "test_type": "8-way label-hidden visual discrimination",
+    "top_1_recognition": 100,
+    "top_3_recognition": 100,
+    "previews": [
+      {
+        "level": "low",
+        "style_fidelity": 80,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "medium",
+        "style_fidelity": 88,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      },
+      {
+        "level": "high",
+        "style_fidelity": 92,
+        "dimensions": [
+          1586,
+          992
+        ],
+        "surface_mimicry_penalty": 0,
+        "result": "PASS"
+      }
+    ],
+    "contact_sheet": "reports/FIRST_WAVE_MEDIUM_CONTACT_SHEET.jpg",
+    "result": "PASS"
+  },
+  "completion_flags": [
+    "STYLE_REFERENCE_VALID",
+    "STYLE_DNA_VALID",
+    "UI_TRANSLATION_VALID",
+    "VISUAL_RECOGNITION_VALID",
+    "USABILITY_VALID",
+    "STYLE_TRANSLATION_COMPLETE"
+  ],
+  "overview_preview_status": "PROJECT_ORIGINAL_FRONTEND_RENDER_PROVENANCE_RECORDED_CURATION_REVIEW_REQUIRED",
+  "overview_generation_method": "Local Playwright overview renderer generated a 1536x1024 HTML/CSS/SVG style overview from recorded Style DNA; no remote assets or third-party image input were used.",
+  "overview_generation_attempts": [
+    {
+      "result": "SUCCESS",
+      "captured_at": "2026-07-30T13:41:43+08:00",
+      "prompt_id": "surrealism_overview_frontend_v1",
+      "renderer": "tools/render_all_style_overview_previews.cjs",
+      "output": "styles/surrealism/previews/overview_chatgpt_rendered.png"
+    }
+  ]
+}
